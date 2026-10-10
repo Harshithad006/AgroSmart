@@ -1,0 +1,28 @@
+node_modules/
+dist/
+backend/__pycache__/
+*.pyc
+*.keras
+*.h5
+*.pkl
+*.joblib
+temp.jpg
+.env
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Editor files
+.vscode/
+
+# Training logs
+backend/logs_finetune/
+backend/logs_head/
